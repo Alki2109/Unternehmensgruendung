@@ -1,0 +1,34 @@
+﻿Titel,Bereich,Soll-Knoten,Schutzklasse,Status,Anmerkung
+Soll-Struktur-Gesamtdokumentation,A-Werkzeug/Bauplan,G-Governance,intern,Draft,
+Wissens-Pipeline-Repo-zu-DB,A-Werkzeug/Bauplan,F-Wissen,intern,Draft,
+Konsolidierung-und-Migrationsmatrix,A-Werkzeug/Bauplan,G-Governance,intern,Draft,
+Schreib-und-Qualitaetsrichtlinie-G7,A-Werkzeug/Bauplan,G-Governance,intern,Draft,
+IP-Schutz-Konzept-G8,A-Werkzeug/Bauplan,G-Governance,vertraulich,Draft,
+Regelwerk-Dokumenten-Abbildung-ID-Vergabe,A-Werkzeug/Bauplan,G-Governance,intern,Draft,
+Kapitel-4a-IHK-und-Einstiegsgeld-Pfad,B-Wissen,A-Gründung,intern,Draft,
+Use-Case-Uebersicht-und-Referenzprojekte,B-Wissen,A-Gründung,intern,Draft,
+Kapitel-3a-Finanzplan-Szenarien,B-Wissen,A-Gründung,vertraulich,Draft,
+Businessplan-1.0.0-rc,B-Wissen,A-Gründung,intern,Review,
+Wissen-Rechercheergebnisse-konsolidiert,B-Wissen,F-Wissen,intern,Draft,
+Meetings-und-Besprechungsorganisation,B-Wissen,G-Governance,intern,Draft,
+Rechercheauftrag-Perplexity,B-Wissen,F-Wissen,intern,Stable,
+Kapitel-6b-Standards-und-Governance,B-Wissen,G-Governance,intern,Draft,
+23-Prompting-Framework-Drei-Schichten,B-Wissen,F-Wissen,vertraulich,Draft,
+Kapitel-6a-Delivery-Methodik-KI-Softwareentwicklung,B-Wissen,D-Prozesse,intern,Draft,
+Domain-Registrierung-Neural-Automatix,C-Betrieb,C-Struktur,intern,Draft,
+Agenda-PC-Session-Framework-Repo,C-Betrieb,E-Agentic,intern,Draft,
+Artefakt-Inventar-Session,C-Betrieb,G-Governance,intern,Draft,
+Logo-Vorgaben-Neural-Automatix,C-Betrieb,C-Struktur,intern,Draft,
+Rueckblick-Fahrplan-Session,C-Betrieb,G-Governance,intern,Draft,
+"Angenommen, ich hätte die Aufgabe, eine Firma virtuell abzubilden. Also zum einen die Firmenstruktur Klammer auf das organisatorische, also das Organigramm die einzelnen Abteilungen, die Beziehungen der Abteilung zueinander, zum Beispiel Geschäftsführung ganz oben, darunter die einzelnen Abteilungen möglicherweise noch in Fachbereiche gegliedert. Und in den Abteilungen die Hierarchien, d.h. leitende Positionen, Mitarbeiterpositionen Dann in der üblichen Form. 
+Ich kenne mich hier nicht aus. Ich kenne das Organigramm, das ja die Organisation der Firma zeigt. Aber wo werden die Leistungen der einzelnen Organisationseinheiten oder die zu erbringenden Leistungen der einzelnen Organisationseinheiten definiert? 
+Gibt es so etwas überhaupt Beispielsweise die Aufgaben der Personalabteilung, deren Aufgaben neben der Personalbeschaffung, wahrscheinlich die Personalentwicklung, die Weiterbildung und so weiter sind, die im Gesamtkontext die Aufgabe hat, dafür zu sorgen, dass genügend Personal, da es um die Aufgaben durchzuführen, die die Firmen durchführen muss, um ihre Dienstleistungen zu erbringen und ihre internen Prozesse in Betrieb zu halten. Dann die Aufgaben der Einzelnen Mitarbeiter in den Abteilungen. Also die Abteilungsleistung im Allgemeinen und dann auf den einzelnen Mitarbeiter bezogen von denen ja jeder Aufgaben hat, mit deren Summe oder in deren Summe die Gesamtleistung einer Abteilung. erbracht wird. 
+Wie bildet man so etwas üblicherweise ab? Wird so etwas runter definiert? Und wenn ja, wie weit wie fein? 
+Ich kenne Geschäftsprozessmodellierungsabläufe, aber das ist ja dann halt eben schon auf Use Case Ebene, wo einzelne Workflows beschrieben werden. Mit Sicherheit gibt es auch Diagramme, mit denen man höhere Hierarchien allgemeine Aufgaben und so weiter abbilden kann. Liefere mir zunächst einen Überblick, wie eine Firmenhierarchie abgebildet werden kann von grob bis fein bis hin zu den Aufgaben der einzelnen Mitarbeitern. 
+Wie würde man übliche Workflows, die in einer Abteilung üblich sind, modellieren? Setzt sie hier die Prozesse die Begriffe Organisation, Organisationseinheit, Organigramm, Abteilung, Fachbereich, Prozess und Workflow in sinnvollationen zueinander. Hierarchisch von grob bis fein. 
+Nachdem du mir den theoretischen Unterbau zusammengestellt hast, und zwar in einer vollständigen, sachlichen kompakten, aber doch ausreichend detaillierten Art, um auch ein wenig Kontext zu bekommen. Wichtig ist das Inhalte auf Richtigkeit recherchiert sind und durch Quellen belegbar. Anschließend, nachdem du mir die fachwissenschaftlich zusammengetragen hast, liefere mir eine Übersicht über übliche Diagramme oder WorkflowAbbildungen. 
+Vielleicht einige Workflowngines oder Frameworks und modelliere das Ganze oder mappe das Ganze auf OML. Was kann man in UML abbilden? Wozu sind Business Process Modeling Frameworks besser geeignet Gibt es Software dafür, zum Beispiel unter Linux, dass die beispielsweise konsolenbasiert gesteuert werden können, so dass beispielsweise ein ki Modell gegebenenfalls nach Implementierung des Mode Content Protocolls auf der jeweilige Ziel, d.h. die Schnittstelle zu der Software hin trainiert werden können. ",,,,,
+Mietverhältnis Im Sand 11 – Falldokumentation & Vorgangssteuerung,C-Betrieb,G-Governance,vertraulich,Draft,Private Rechtssache Mietrecht. Eigene ID-Domäne MIET-*. Stand 15.07.2026.
+Konzept: Abbildung von Vertragswerken,B-Wissen,B-Konzepte,intern,Draft,"Ebene 1 (Konzept) der Dreiteilung Konzept -> Domaene -> Anwendung. Generische, wiederverwendbare Struktur zur Erfassung beliebiger Vertragswerke. IDs werden nachgelagert per Notion-Regelwerk vergeben."
+Konzept: Multi-Agent-Architektur & Avatar-Organigramm (Digital Twin),B-Wissen,E-Agentic,intern,Draft,"Konzept/To-Do – noch nicht verifiziert, einziger Mitarbeiter aktuell Alexander selbst. Erweiterung des bestehenden Wissensstands um konkrete Multi-Agent-Szenarien."
+"Französisch A2 – Konzept, Domäne, Anwendung (Recherche)",B-Wissen,F-Wissen,intern,Draft,"Nebenprojekt: Privates Sprachlern-Konzept für Mutter, nicht Kerngeschäft Neural Automatix. Perplexity-Recherche als Grundlage."
