@@ -1,0 +1,6 @@
+﻿Schritt,Automatik (Trigger),Erwartetes Ergebnis
+1) Datenmodell finalisieren (Prüfung → Aufgaben → Wiki),startet Agent,Ziel-Datenfluss (OCR-Inbox → Aufgaben-Seiten → Wiki) als verbindliche Spezifikation + Mapping der Metadaten (Fach/Jahr/Saison).
+2) OCR-Pipeline festlegen (Tools/Qualität/Output-Format),startet Agent,Entscheidung für OCR-Stack + Standard-Output: Text + Seitenbilder + Positionsdaten (falls möglich).
+3) Formel-Bibliothek-Abgleich (formula_* → Standardlibs vs. custom),startet Agent,"Liste: Formel-ID → (a) in Standardlib vorhanden (welche), (b) besser als custom, (c) bleibt custom (mit Tests/Einheiten)."
+"4) Visualisierungs-Stack definieren (Vektoren/Kräfte, Schaltungen, technische Zeichnungen)",startet Agent,"Empfohlenes Set pro Diagrammtyp (z. B. Matplotlib/Plotly, Inkscape-Symbollibs, Exportpfade SVG→PDF)."
+5) Aufgaben-Zerlegung & Didaktik-Levels (D1/D2/D3) als Template,startet Agent,"Standard-Template für Aufgabe inkl. D1/D2/D3-Aufbereitung, Musterlösung, Rechenweg, Skizzen-Hooks."
