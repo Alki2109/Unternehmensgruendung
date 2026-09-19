@@ -16,7 +16,7 @@ KI-Referenz: KAPITEL-3-FINANZPLAN
 
 **Erstelldatum (fix):** 27.05.2026, 16:11 (Europe/Berlin)
 
-**Letzte Aktualisierung:** 02.07.2026, 05:05 (Europe/Berlin)
+**Letzte Aktualisierung:** 19.09.2026 (Europe/Berlin)
 
 </aside>
 
@@ -25,6 +25,7 @@ KI-Referenz: KAPITEL-3-FINANZPLAN
     
     | Zeitpunkt (TZ) | Änderung |
     | --- | --- |
+    | 19.09.2026 (Europe/Berlin) | Link auf Kapitel 3a (Finanzplan-Szenarien mit 12-Monats-Grobgerüst) ergänzt |
     | 02.07.2026, 05:05 (Europe/Berlin) | Evidence-Input + Top-10 offene Finanz-Inputs ergänzt |
     | 17.06.2026, 17:47 (Europe/Berlin) | Draft-Stand (Hub/Verlinkung) |
 
@@ -32,7 +33,8 @@ KI-Referenz: KAPITEL-3-FINANZPLAN
 
 ### Aktuelle Arbeitsfassung (Single Source of Truth)
 
-- 📊 [Finanzplan V2 Current – Arbeitsfassung 25.05.2026](https://app.notion.com/p/Finanzplan-V2-Current-Arbeitsfassung-25-05-2026-36b0cb48a9548194b8fefc5f026832fa?pvs=21)
+- 📊 [Finanzplan V2 Current – Arbeitsfassung 25.05.2026](https://app.notion.com/p/Finanzplan-V2-Current-Arbeitsfassung-25-05-2026-36b0cb48a9548194b8fefc5f026832fa?pvs=21) (Kostenpositionen, Umsatzbausteine)
+- 📊 [Kapitel 3a – Finanzplan-Szenarien (Rechenstand, inkl. 12-Monats-Grobgerüst)](Neural%20Automatix%20%E2%80%93%20Wissensbasis/Kapitel-3a-Finanzplan-Szenarien.md) — Kapitalbedarf, Umsatzszenarien, Liquiditätsverlauf und Break-Even über 12 Monate
 
 ### Evidence-Input (neu)
 

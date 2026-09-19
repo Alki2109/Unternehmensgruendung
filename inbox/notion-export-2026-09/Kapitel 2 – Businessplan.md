@@ -16,7 +16,7 @@ KI-Referenz: KAPITEL-2-BUSINESSPLAN
 
 **Erstelldatum (fix):** 27.05.2026, 16:11 (Europe/Berlin)
 
-**Letzte Aktualisierung:** 02.07.2026, 05:05 (Europe/Berlin)
+**Letzte Aktualisierung:** 19.09.2026 (Europe/Berlin)
 
 </aside>
 
@@ -25,6 +25,7 @@ KI-Referenz: KAPITEL-2-BUSINESSPLAN
     
     | Zeitpunkt (TZ) | Änderung |
     | --- | --- |
+    | 19.09.2026 (Europe/Berlin) | SSoT-Link auf Businessplan-1.0.0-rc umgestellt (löst Positionierungs-Widerspruch 4 Säulen/generisch vs. 3 Säulen/Industrie-Fokus zugunsten der aktuelleren, geschärften Fassung auf); ältere V2-Arbeitsfassung als historisch markiert |
     | 02.07.2026, 05:05 (Europe/Berlin) | Evidence-Workflow (Beschaffungsplan → Faktenmatrix → Text) ergänzt |
     | 17.06.2026, 17:47 (Europe/Berlin) | Draft-Stand (Hub/Verlinkung) |
 
@@ -32,7 +33,8 @@ KI-Referenz: KAPITEL-2-BUSINESSPLAN
 
 ### Aktuelle Arbeitsfassung (Single Source of Truth)
 
-- 📘 [Businessplan V2 Current – Arbeitsfassung 25.05.2026](https://app.notion.com/p/Businessplan-V2-Current-Arbeitsfassung-25-05-2026-36b0cb48a954819ca846df6672093c19?pvs=21)
+- 📘 [Businessplan-1.0.0-rc (aktuell, Industrie-Fokus, 3 Säulen)](Neural%20Automatix%20%E2%80%93%20Wissensbasis/Businessplan-1%200%200-rc.md) — löst die frühere Positionierungsfrage "vier Säulen vs. Industrie-Fokus" zugunsten des Industrie-Fokus auf (Säule 1 = strategischer Kern).
+- ~~Businessplan V2 Current – Arbeitsfassung 25.05.2026~~ (historisch, durch 1.0.0-rc abgelöst): [Notion-Link](https://app.notion.com/p/Businessplan-V2-Current-Arbeitsfassung-25-05-2026-36b0cb48a954819ca846df6672093c19?pvs=21)
 
 ### Evidence-Workflow (neu, prüffähig)
 

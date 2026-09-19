@@ -23,6 +23,7 @@ Update-Historie (Evolution)
 
 | Zeitpunkt (TZ) | Änderung |
 | --- | --- |
+| 19.09.2026 (Europe/Berlin) | 12-Monats-Grobgerüst ergänzt (KAP3A-JAHRESUEBERSICHT-0001): Umsatzverlauf, Liquiditätsverlauf (kumuliert) und Kapitalbedarf je Szenario über volle Anlaufperiode statt nur der ersten 3 Monate |
 | 07.07.2026, 15:32 (Europe/Berlin) | Initiale Szenariorechnung auf Basis der erhobenen Kosten- und Umsatzannahmen |
 
 Standard: siehe Dokumentations-Styleguide (Global) – Regel-Template. Detailwerte gehören in DB-03 (Finanzplanung); dieses Kapitel ist der lesbare Rechenstand zu Kapitel 3.
@@ -35,6 +36,7 @@ Navigation:
 | KAP3A-UMSATZ-0001 | Umsatz & Szenarien | Kapitel |
 | KAP3A-BREAKEVEN-0001 | Break-Even & Deckung | Kapitel |
 | KAP3A-KAPITAL-0001 | Kapitalbedarf & Anlauf | Kapitel |
+| KAP3A-JAHRESUEBERSICHT-0001 | 12-Monats-Grobgerüst (Umsatz, Liquidität, Kapitalbedarf) | Kapitel |
 | KAP3A-ANNAHMEN-0001 | Annahmen & offene Punkte | Kapitel |
 
 ## Fixkosten (monatlich)
@@ -95,6 +97,45 @@ Anlaufannahme (konservativ, 3 Monate Ramp-up): Monat 1 = 0 abrechenbare Tage, Mo
 Kumulierte Deckungslücke Anlauf: ~2.810 €. Kapitalbedarf ohne Puffer = 1.530 € + 2.810 € ≈ **4.340 €**. Mit 3-Monats-Liquiditätspuffer (3 × 2.605 €) ≈ **12.155 €**.
 
 Deckung des Kapitalbedarfs: Erspartes (Vorlage vorhanden) + Einstiegsgeld (§ 16b) + ggf. Sachgüter-Zuschuss (§ 16c) für den Laptop. Das Auto ist bewusst nicht enthalten (nur bei Förderkredit, unabhängig von der Gründungsentscheidung).
+
+## 12-Monats-Grobgerüst (Umsatz, Liquidität, Kapitalbedarf)
+
+ID: KAP3A-JAHRESUEBERSICHT-0001
+
+Erweiterung der obigen 3-Monats-Anlaufrechnung auf ein volles Geschäftsjahr. Fixkosten konstant mit 2.605 €/Monat angesetzt (Annahme; steigt real mit GKV-Einkommensabhängigkeit und Steuerlast, siehe Annahmen unten). Ramp-up Monat 1–3 wie oben (0/3/5 abrechenbare Tage im realistischen Szenario); ab Monat 4 wird die jeweilige Szenario-Auslastung (6/8/10 Tage/Monat) als Dauerzustand angenommen. Tagessatz konstant 800 €.
+
+| Monat | Tage konserv. | Tage realist. | Tage optim. | Umsatz konserv. | Umsatz realist. | Umsatz optim. |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 | 0 | 0 | 0 | 0 € | 0 € | 0 € |
+| 2 | 2 | 3 | 4 | 1.600 € | 2.400 € | 3.200 € |
+| 3 | 4 | 5 | 6 | 3.200 € | 4.000 € | 4.800 € |
+| 4–12 (je Monat) | 6 | 8 | 10 | 4.800 € | 6.400 € | 8.000 € |
+
+**Liquiditätsverlauf (kumulierter Saldo Umsatz − Fixkosten, vor Einkommensteuer):**
+
+| Monat | kumuliert konserv. | kumuliert realist. | kumuliert optim. |
+| --- | ---: | ---: | ---: |
+| 1 | −2.605 € | −2.605 € | −2.605 € |
+| 2 | −3.610 € | −2.810 € | −2.010 € |
+| 3 | −3.015 € | −1.415 € | 185 € |
+| 4 | −820 € | 2.380 € | 5.580 € |
+| 5 | 1.375 € | 6.175 € | 10.975 € |
+| 6 | 3.570 € | 9.970 € | 16.370 € |
+| 7 | 5.765 € | 13.765 € | 21.765 € |
+| 8 | 7.960 € | 17.560 € | 27.160 € |
+| 9 | 10.155 € | 21.355 € | 32.555 € |
+| 10 | 12.350 € | 25.150 € | 37.950 € |
+| 11 | 14.545 € | 28.945 € | 43.345 € |
+| 12 | 16.740 € | 32.740 € | 48.740 € |
+
+**Break-Even-Lesart (Ergänzung zu KAP3A-BREAKEVEN-0001):**
+
+- *Monatlicher* Break-Even (3,3 Tage/Monat) wird im konservativen wie im realistischen Szenario bereits ab Monat 3 laufend überschritten.
+- *Kumulierter* Break-Even (Startkapitallücke ausgeglichen) wird konservativ in Monat 5, realistisch in Monat 4, optimistisch bereits in Monat 3 erreicht.
+
+**Kapitalbedarf über die volle Anlaufphase (nicht nur Monat 1–3):** Maßgeblich ist die tiefste kumulierte Lücke im Jahresverlauf, nicht nur der 3-Monats-Wert. Diese liegt in allen drei Szenarien in Monat 2: konservativ **−3.610 €**, realistisch **−2.810 €**, optimistisch **−2.010 €**. Zusammen mit den Einmalkosten (1.530 €) ergibt sich ein Kapitalbedarf von **5.140 € (konservativ)** bis **3.540 € (optimistisch)**. Mit dem bereits ausgewiesenen 3-Monats-Liquiditätspuffer (7.815 €) bleibt die frühere Gesamt-Kapitalbedarfsgröße von **rund 12.000–13.000 €** als konservative Zielgröße bestehen.
+
+Hinweis: Diese Jahresrechnung ist ein Grobgerüst auf Basis der bestehenden Annahmen (Tagessatz, Auslastungsstufen, konstante Fixkosten). Sie ersetzt keine Steuer-/Rechtsformberatung und keine reale GKV-/RV-Bestätigung (siehe Annahmen unten).
 
 ## Annahmen & offene Punkte
 

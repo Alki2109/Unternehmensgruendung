@@ -15,7 +15,7 @@ Status: Draft
 
 **Zweck:** Verbindliche Reihenfolge und Vorbereitungs-Checkliste für die Finanzierung der Gründung über den Bürgergeld-/Grundsicherungsgeld-Pfad (Einstiegsgeld § 16b SGB II, Sachgüter-Zuschuss § 16c SGB II) sowie für den IHK-Termin (Tragfähigkeitsbescheinigung). Ergänzt Kapitel 4 (Förderung).
 
-**Fehlt (kurz):** Aktuelle Regelsatz-/Einstiegsgeld-Beträge und Saarland-spezifische Jobcenter-Zuständigkeit gegenprüfen + IHK-Termin buchen + Businessplan (Kap. 2) und Finanzplan (Kap. 3) auf Tragfähigkeits-DoD bringen.
+**Fehlt (kurz):** Aktuelle Regelsatz-/Einstiegsgeld-Beträge und Saarland-spezifische Jobcenter-Zuständigkeit gegenprüfen + Jobcenter-Termin (23.09.2026) wahrnehmen + Businessplan (Kap. 2) und Finanzplan (Kap. 3) auf Tragfähigkeits-DoD bringen.
 
 **KI-Referenz:** KAPITEL-4A-IHK-EINSTIEGSGELD-PFAD
 
@@ -23,6 +23,7 @@ Update-Historie (Evolution)
 
 | Zeitpunkt (TZ) | Änderung |
 | --- | --- |
+| 19.09.2026 (Europe/Berlin) | Kapitel 4 (Gründungszuschuss/SGB III) als Alternativszenario markiert; dieses Kapitel ist der aktuell maßgebliche Förderpfad. Zielstartdatum-Abschnitt ergänzt (KAP4A-STARTDATUM-0001) |
 | 07.07.2026, 15:32 (Europe/Berlin) | Initiale Erstellung: Einstiegsgeld-Pfad + IHK-Vorbereitung, Reihenfolge festgelegt |
 
 Standard: siehe Dokumentations-Styleguide (Global) – Regel-Template. Anschluss an Kapitel 4 (Förderung/Arbeitsagentur/KfW), Kapitel 2 (Businessplan) und Kapitel 3 (Finanzplan).
@@ -37,6 +38,7 @@ Navigation:
 | KAP4A-IHKFRAGEN-0001 | Fragenliste für den IHK-Termin | Kapitel |
 | KAP4A-JCFRAGEN-0001 | Fragenliste für das Jobcenter | Kapitel |
 | KAP4A-RISIKEN-0001 | Ermessen, Risiken & offene Punkte | Kapitel |
+| KAP4A-STARTDATUM-0001 | Zielstartdatum (aktualisiert) | Kapitel |
 
 ## Kritische Reihenfolge (nicht abweichen)
 
@@ -96,6 +98,16 @@ ID: KAP4A-JCFRAGEN-0001
 - Muss die Tragfähigkeitsbescheinigung vor oder mit dem Antrag vorliegen?
 - Bis wann muss der Antrag vor der geplanten Gewerbeanmeldung gestellt sein?
 - Welche laufenden Betriebskosten sind ausdrücklich nicht förderfähig (zur sauberen Trennung im Finanzplan)?
+
+## Zielstartdatum (aktualisiert)
+
+ID: KAP4A-STARTDATUM-0001
+
+Der bisherige Planwert „01.09.2026" (aus der älteren Businessplan-Arbeitsfassung V2) ist überholt: Der Jobcenter-Termin liegt erst am 23.09.2026, und die kritische Reihenfolge (siehe KAP4A-REIHENFOLGE-0001) verbietet eine Gewerbeanmeldung vor Antragstellung/Bewilligung von Einstiegsgeld und Sachgüter-Zuschuss.
+
+**Neue Arbeitsannahme:** Gewerbeanmeldung und Tätigkeitsaufnahme frühestens **01.12.2026**, vorbehaltlich des Jobcenter-Bescheids nach dem Termin am 23.09.2026. Rechnerische Grundlage: IHK-Termin und Antragstellung unmittelbar nach dem 23.09.2026, übliche Bearbeitungsdauer für Ermessensleistungen ca. 4–8 Wochen.
+
+Dieses Datum ist eine **Annahme**, kein Bescheid-Termin. Es ist unmittelbar nach dem Jobcenter-Termin (23.09.2026) zu bestätigen oder zu korrigieren und dann konsistent in Kapitel 2 (Businessplan) und Kapitel 3/3a (Finanzplan, Anlaufphase Monat 1) zu übernehmen.
 
 ## Ermessen, Risiken & offene Punkte
 
